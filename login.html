@@ -1,0 +1,37 @@
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Message for honey</title>
+</head>
+<body>
+<form>
+    <label for="pswd">Enter the password Honey: </label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "hotdog";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="welcome.html";
+        }
+        else{
+            alert("Passwords do not match.");
+
+
+
+
+
+
+
+
+
+
+            
+        }
+    }
+</script>
+</body>
+</html>
